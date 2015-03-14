@@ -22,7 +22,7 @@ public class GameController : MonoBehaviour {
 		count++;
 		//shot the ball 1/100loop
 		if (count % 100 == 0)  {
-			Ball ball = BallManager.make_ball_object_by_position (new Vector3(0,1,0));
+			Ball ball = BallManager.make_ball_object_by_position (new Vector3(0,3,0));
 			ball.random_shoot();
 		}
 	}
